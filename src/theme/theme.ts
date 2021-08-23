@@ -20,6 +20,8 @@ export const theme = extendTheme({
     buttonTextLight: '#2e2e34',
     buttonTextLightHover: '#404048',
 
-    paragraph: '#94a1b2'
+    paragraph: '#94a1b2',
+
+    bgColorAbout: '#383d43'
   }
 })

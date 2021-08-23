@@ -6,7 +6,7 @@ import HeroImage from './HeroImage'
 const Header = () => {
   return (
     <>
-      <Stack maxW={'90%'}>
+      <Stack maxW={'100%'} height={'500px'}>
         <NavBar />
         <HeroImage />
       </Stack>

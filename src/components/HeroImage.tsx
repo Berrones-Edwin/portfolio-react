@@ -1,10 +1,11 @@
 import React from 'react'
-import { Flex, Stack, Heading, Text } from '@chakra-ui/react'
+import { Stack, Heading, Button, Text, Center } from '@chakra-ui/react'
 import Developer from '../svg/developer.svg'
 
 const HeroImage = () => {
   return (
-    <Flex
+    <Stack
+      height={'100%'}
       mt={500}
       direction={{
         base: 'column',
@@ -22,9 +23,14 @@ const HeroImage = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           sequi, vitae eius odio doloremque illo.
         </Text>
+        <Button size="md" width={'150px'} variant="outline" bgColor="primary">
+          Conocer más
+        </Button>
       </Stack>
-      <img src={Developer} alt={'developer'} height="500" width="500" />
-    </Flex>
+      <Center>
+        <img src={Developer} alt={'developer'} height="500" width="500" />
+      </Center>
+    </Stack>
   )
 }
 
