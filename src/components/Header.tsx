@@ -1,14 +1,14 @@
 import React from 'react'
 import NavBar from './Navbar'
-import { Center } from '@chakra-ui/react'
-import Developer from '../svg/developer.svg'
+import { Stack } from '@chakra-ui/react'
+
 const Header = () => {
   return (
     <>
-      <NavBar />
-      <Center>
-        <img src={Developer} alt={'developer'} height="500" width="500" />
-      </Center>
+      <Stack maxW={'90%'}>
+        <NavBar />
+        <HeroImage />
+      </Stack>
     </>
   )
 }
