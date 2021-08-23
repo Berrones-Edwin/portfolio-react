@@ -1,6 +1,7 @@
 import React from 'react'
-import NavBar from './Navbar'
 import { Stack } from '@chakra-ui/react'
+import NavBar from './Navbar'
+import HeroImage from './HeroImage'
 
 const Header = () => {
   return (
