@@ -14,17 +14,21 @@ import {
   PopoverContent,
   useColorModeValue,
   useBreakpointValue,
-  useDisclosure
+  useDisclosure,
+  useColorMode
 } from '@chakra-ui/react'
 import {
   HamburgerIcon,
   CloseIcon,
   ChevronDownIcon,
-  ChevronRightIcon
+  ChevronRightIcon,
+  SunIcon,
+  MoonIcon
 } from '@chakra-ui/icons'
 
 export default function NavBar() {
   const { isOpen, onToggle } = useDisclosure()
+  const { colorMode, toggleColorMode } = useColorMode()
 
   return (
     <Box>
@@ -34,9 +38,6 @@ export default function NavBar() {
         minH={'60px'}
         py={{ base: 2 }}
         px={{ base: 4 }}
-        // borderBottom={1}
-        // borderStyle={'solid'}
-        // borderColor={useColorModeValue('gray.200', 'gray.900')}
         align={'center'}
       >
         <Flex
@@ -85,26 +86,18 @@ export default function NavBar() {
           spacing={6}
         >
           <Button
-            as={'a'}
-            fontSize={'sm'}
-            fontWeight={400}
-            variant={'link'}
-            href={'#'}
-          >
-            Sign In
-          </Button>
-          <Button
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
-            bg={'pink.400'}
+            bg={'primary'}
             href={'#'}
+            onClick={toggleColorMode}
             _hover={{
-              bg: 'primary'
+              bg: 'primaryDark'
             }}
           >
-            Sign Up
+            {colorMode === 'dark' ? <MoonIcon /> : <SunIcon />}
           </Button>
         </Stack>
       </Flex>

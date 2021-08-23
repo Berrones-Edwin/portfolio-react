@@ -1,19 +1,19 @@
 import React from 'react'
-import { Button, Stack, useColorMode } from '@chakra-ui/react'
-import NavBar from './components/Navbar'
+import { Stack } from '@chakra-ui/react'
+
+import Header from './components/Header'
+import ShapeDivider from './components/ShapeDivider/ShapeDivider'
 
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode()
   return (
     <Stack
       bgColor="{useColorModeValue( 'bgColorlight','bgColorDark')}"
       minW="100vw"
       minH="100vh"
     >
-      <NavBar />
-      <Button onClick={toggleColorMode} bgColor="primary">
-        {colorMode}
-      </Button>
+      <Header />
+
+      <ShapeDivider />
     </Stack>
   )
 }
