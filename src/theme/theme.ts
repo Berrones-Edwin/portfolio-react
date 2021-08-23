@@ -2,10 +2,24 @@ import { extendTheme } from '@chakra-ui/react'
 
 export const theme = extendTheme({
   colors: {
-    bgColor: '#101011',
-    bgColorSeconday: '#3f353c',
-    bgColorTerciary: '#d6c1b5',
-    primary: '#b13770',
-    secondary: '#8d797b'
+    bgColorLight: '#f9f4ef',
+    bgColorDark: '#16161a',
+
+    primary: '#7f5af0',
+    primaryLight: '#9373f4',
+    primaryDark: '#5e43b3',
+
+    headlineDark: '#fffffe',
+    headlineLight: '#2e2e34',
+
+    buttonTextDark: '#fffffe',
+    buttonTextDarkHover: '#cdcdca',
+
+    transparent: 'transparent',
+
+    buttonTextLight: '#2e2e34',
+    buttonTextLightHover: '#404048',
+
+    paragraph: '#94a1b2'
   }
 })
