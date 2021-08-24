@@ -2,14 +2,26 @@ import React from 'react'
 import Layout from './components/Layout'
 import Header from './components/Header'
 import About from './components/About'
-import ShapeDivider from './components/ShapeDivider/ShapeDivider'
+import Projects from './components/Projects'
 
 function App() {
   return (
     <Layout>
       <Header />
+
+      <hr />
       <About />
-      <ShapeDivider />
+      <hr />
+      <Projects />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* <ShapeDivider /> */}
     </Layout>
   )
 }

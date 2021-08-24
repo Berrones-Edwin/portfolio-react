@@ -5,8 +5,8 @@ import Developer from '../svg/developer.svg'
 const HeroImage = () => {
   return (
     <Stack
-      height={'100%'}
-      mt={500}
+      height={'400px'}
+      width={'90%'}
       direction={{
         base: 'column',
         md: 'row'
@@ -23,7 +23,13 @@ const HeroImage = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           sequi, vitae eius odio doloremque illo.
         </Text>
-        <Button size="md" width={'150px'} variant="outline" bgColor="primary">
+        <Button
+          border={'1px solid red'}
+          size="lg"
+          width={'150px'}
+          variant="outline"
+          bgColor="primary"
+        >
           Conocer más
         </Button>
       </Stack>

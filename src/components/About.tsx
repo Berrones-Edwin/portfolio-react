@@ -1,5 +1,6 @@
-import { Stack, Heading, Image, Text, Flex } from '@chakra-ui/react'
+import { Stack, Heading, Image, Text, Flex, Button } from '@chakra-ui/react'
 import React from 'react'
+import './About.css'
 
 const About = () => {
   return (
@@ -9,15 +10,16 @@ const About = () => {
         display={'flex'}
         direction={'row'}
         justify={'center'}
+        align={'center'}
+        padding={4}
       >
         <Stack
           borderRadius={'10px'}
-          maxW={'80%'}
-          width={'80%'}
+          maxW={'90%'}
+          width={'90%'}
           justify={{
             base: 'column'
           }}
-          bgColor={'bgColorAbout'}
         >
           <Flex
             direction={{
@@ -25,13 +27,59 @@ const About = () => {
               md: 'row'
             }}
             justify={{
-              base: 'center',
-              md: 'space-around'
+              base: 'flex-start',
+              md: 'space-between'
             }}
-            align={'center'}
+            align={{
+              base: 'center',
+              md: 'flex-start'
+            }}
           >
-            <Stack padding={4}>
-              <Heading as={'h3'}>Acerca de mí</Heading>
+            <Stack
+              width={{
+                base: '100%',
+                md: '30%'
+              }}
+              justify={'center'}
+              align={'center'}
+              padding={2}
+            >
+              <Image
+                borderRadius="full"
+                src={'https://bit.ly/dan-abramov'}
+                boxSize={{
+                  base: '200px',
+                  md: '300px'
+                }}
+                border={'6px solid #7f5af0'}
+              />
+            </Stack>
+            <Stack
+              padding={4}
+              width={{
+                base: '100%',
+                md: '70%'
+              }}
+              justify={'center'}
+              align={'center'}
+              height={'100%'}
+            >
+              <Heading
+                color="{useColorModeValue('headlineLight','headlineDark' )}"
+                size={'lg'}
+                as={'h3'}
+              >
+                Acerca de mí
+              </Heading>
+              <Text>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis, perferendis. Atque ullam, cumque est dolor labore sint
+                ipsa hic itaque obcaecati consectetur sequi dolorum cupiditate
+                unde porro asperiores perferendis alias earum veritatis neque
+                ratione aperiam. Nam unde cupiditate impedit voluptas atque eum
+                corporis optio molestias, libero repellat, fugiat expedita
+                quibusdam?
+              </Text>
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Debitis, perferendis. Atque ullam, cumque est dolor labore sint
@@ -42,15 +90,9 @@ const About = () => {
                 quibusdam?
               </Text>
             </Stack>
-            <Image
-              borderRadius="full"
-              src={'https://bit.ly/dan-abramov'}
-              boxSize="200px"
-            />
           </Flex>
         </Stack>
       </Stack>
-      {/* </Center> */}
     </>
   )
 }

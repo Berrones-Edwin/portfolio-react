@@ -6,7 +6,7 @@ export const theme = extendTheme({
     bgColorDark: '#16161a',
 
     primary: '#7f5af0',
-    primaryLight: '#9373f4',
+    primaryLight: '#7c59ec',
     primaryDark: '#5e43b3',
 
     headlineDark: '#fffffe',
@@ -22,6 +22,6 @@ export const theme = extendTheme({
 
     paragraph: '#94a1b2',
 
-    bgColorAbout: '#383d43'
+    bgColorAbout: '#ccc'
   }
 })

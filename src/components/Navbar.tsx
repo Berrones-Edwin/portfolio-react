@@ -84,6 +84,7 @@ export default function NavBar() {
           justify={'flex-end'}
           direction={'row'}
           spacing={6}
+          mr={3}
         >
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
