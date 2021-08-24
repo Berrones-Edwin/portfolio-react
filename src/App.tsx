@@ -8,8 +8,6 @@ function App() {
   return (
     <Layout>
       <Header />
-
-      <hr />
       <About />
       <hr />
       <Projects />
