@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "name": "Notes App",
+    "description-short": "Aplicación para el manejo de notas.Podemos hacer las acciones básicas (CRUD).",
+    "description": "Es una aplicación para el manejo de notas, donde podemos hacer las acciones básicas (CRUD). Podemos insertar un título, descripción y opcionalmente una imagen. Para usar la app debemos de crearnos una cuenta. La aplicación está construida con React usando el lenguaje TypeScript y se conecta con Firebase. La aplicación está alojada en vercel.",
+    "links": [
+      {
+        "id": 1,
+        "name": "Demo",
+        "url": "https://journal-app-react-lovat.vercel.app"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "url": "https://github.com/Berrones-Edwin/journal-app-react"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "SASS"
+      },
+      {
+        "id": 3,
+        "name": "TypeScript"
+      },
+      {
+        "id": 4,
+        "name": "Firebase"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Buscador de canciones",
+    "description-short": "Aplicación que nos permite buscar la información de un artista y la letra de una canción.",
+    "description": "Aplicación que nos permite buscar la información de un artista / grupo musical y ver la letra de una canción.Search song hace uso de dos api; la primera para obtener la información del artista y la segunda para traer la letra de la canción. Está construida con React y para los estilos se usa la librería de chakra UI y el lenguaje de JavaScript; y alojada en Vercel.",
+    "links": [
+      {
+        "id": 1,
+        "name": "Demo",
+        "url": "https://song-search-gamma.vercel.app"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "url": "https://github.com/Berrones-Edwin/song-search"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript"
+      },
+      {
+        "id": 3,
+        "name": "Chakra UI"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Buscador de GIFS",
+    "description-short": "Aplicación para buscar gifs, podemos registrarnos / iniciar sesión y tener una colección de favoritos.",
+    "description": "Aplicación para buscar gifs haciendo uso de la api giphy. Podemos ver las tendencias de los gifs; crear una cuenta y registrarnos haciendo uso de Firebase. Si tenemos una cuenta podemos crear una colección de favoritos. La aplicación está construida con react con el lenguaje de JavaScript, bootstrap 5 para los estilos, firebase para la autenticación y base de datos; y alojado en Vercel.",
+    "links": [
+      {
+        "id": 1,
+        "name": "Demo",
+        "url": "https://gifs-iota.vercel.app"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "url": "https://github.com/Berrones-Edwin/gifs-app-react"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "Bootstrap"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript"
+      },
+      {
+        "id": 4,
+        "name": "Firebase"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "ToDo App",
+    "description-short": "Aplicación para agregar tareas por hacer, podemos completar tareas y eliminarlas.Se puede filtrar por tareas sin completar, todas las tareas y las completadas.",
+    "description": "Aplicación para crear una lista de tareas, las tareas se pueden marcar / desmarcar; se puede filtrar para ver las tareas que tenemos que realizar y las tareas que ya hemos completado. La lista se guarda en el localstorage. La aplicación está construida con react con el lenguaje de JavaScript, chakra UI para los estilos, y alojado en Vercel. ",
+    "links": [
+      {
+        "id": 1,
+        "name": "Demo",
+        "url": "https://todo-app-delta-two.vercel.app"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "url": "https://github.com/Berrones-Edwin/ToDo-app-react"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "Chakra UI"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Juego Memoria",
+    "description-short": "Juego clásico donde tenemos que buscar cartas que sean pares.",
+    "description": "Juego clásico donde tenemos que buscar cartas que sean pares, con la temática de Mortal Kombat.La aplicación está construida con Javascript, los estilos se usa bootstrap y los resultados se guardan en el LocalStorage. Alojada en GitHub Pages.",
+    "links": [
+      {
+        "id": 1,
+        "name": "Demo",
+        "url": "https://berrones-edwin.github.io/memorama/"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "url": "https://github.com/Berrones-Edwin/memorama"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": "JavaScript"
+      },
+      {
+        "id": 2,
+        "name": "Bootstrap"
+      }
+    ]
+  }
+]
