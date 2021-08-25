@@ -22,6 +22,12 @@ export const theme = extendTheme({
 
     paragraph: '#94a1b2',
 
-    bgColorAbout: '#ccc'
+    React: '#5ccfee',
+    JavaScript: '#ead41c',
+    TypeScript: '#2f72bc',
+    Firebase: '#f2c12a',
+    Bootstrap: '#7611ed',
+    ChakraUI: '#28b5aa',
+    SASS: '#cc699c'
   }
 })
