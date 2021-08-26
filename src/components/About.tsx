@@ -1,6 +1,7 @@
-import { Stack, Heading, Image, Text, Flex, Button } from '@chakra-ui/react'
+import { Stack, Image, Text, Flex, Button } from '@chakra-ui/react'
 import React from 'react'
 import './About.css'
+import Title from './Title'
 
 const About = () => {
   return (
@@ -64,13 +65,7 @@ const About = () => {
               align={'center'}
               height={'100%'}
             >
-              <Heading
-                color="{useColorModeValue('headlineLight','headlineDark' )}"
-                size={'lg'}
-                as={'h3'}
-              >
-                Acerca de mí
-              </Heading>
+              <Title title={'Acerca de mí'} size={'xl'} />
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Debitis, perferendis. Atque ullam, cumque est dolor labore sint

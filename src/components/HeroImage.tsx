@@ -1,7 +1,7 @@
 import React from 'react'
-import { Stack, Heading, Button, Text, Center } from '@chakra-ui/react'
+import { Stack, Button, Text, Center } from '@chakra-ui/react'
 import Developer from '../svg/developer.svg'
-
+import Title from './Title'
 const HeroImage = () => {
   return (
     <Stack
@@ -18,7 +18,7 @@ const HeroImage = () => {
       align={'center'}
     >
       <Stack padding={4}>
-        <Heading>Lorem ipsum dolor sit amet</Heading>
+        <Title title={'Front-End Developer'} size={'xl'} />
         <Text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           sequi, vitae eius odio doloremque illo.

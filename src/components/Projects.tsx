@@ -4,6 +4,7 @@ import { projectsData } from '../data/portfolio-data'
 import { Project } from '../types/projects-type'
 import Filter from './Filter'
 import GridProjects from './GridProjects'
+import Title from './Title'
 
 const Projects = () => {
   const [projects, setProjects] = useState<Project[]>(projectsData)
@@ -11,9 +12,7 @@ const Projects = () => {
   return (
     <Stack mt={'1'}>
       <Center mb={2}>
-        <Heading as={'h3'} size={'lg'}>
-          Projects
-        </Heading>
+        <Title title={'Proyectos'} size={'xl'} />
       </Center>
       {/* Filter */}
       <Filter projectsData={projectsData} setProjects={setProjects} />
