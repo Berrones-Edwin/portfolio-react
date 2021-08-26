@@ -3,14 +3,17 @@ import Layout from './components/Layout'
 import Header from './components/Header'
 import About from './components/About'
 import Projects from './components/Projects'
+import CustomDivider from './components/CustomDivider'
 
 function App() {
   return (
     <Layout>
       <Header />
+      <CustomDivider side={'left'} />
       <About />
-      <hr />
+      <CustomDivider side={'right'} />
       <Projects />
+      <CustomDivider side={'left'} />
       <br />
       <br />
       <br />

@@ -10,7 +10,7 @@ const Projects = () => {
   const [projects, setProjects] = useState<Project[]>(projectsData)
 
   return (
-    <Stack mt={'1'}>
+    <Stack mt={'3'} mb={3}>
       <Center mb={2}>
         <Title title={'Proyectos'} size={'xl'} />
       </Center>

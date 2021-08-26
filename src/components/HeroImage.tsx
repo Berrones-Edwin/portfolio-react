@@ -18,7 +18,7 @@ const HeroImage = () => {
       align={'center'}
     >
       <Stack padding={4}>
-        <Title title={'Front-End Developer'} size={'xl'} />
+        <Title title={'Hola, Bienvenido'} size={'xl'} />
         <Text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           sequi, vitae eius odio doloremque illo.

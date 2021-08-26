@@ -8,14 +8,11 @@ import CustomDivider from './CustomDivider'
 const Header = () => {
   return (
     <>
-      <Stack maxW={'100%'} height={'500px'}>
+      <Stack maxW={'100%'} height={'500px'} mb={2}>
         <NavBar />
         <Flex width={'100%'} justify={'center'}>
           <HeroImage />
         </Flex>
-        <Center height="150px">
-          <Divider orientation="vertical" />
-        </Center>
         <ShapeDivider />
       </Stack>
     </>
