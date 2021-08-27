@@ -43,6 +43,9 @@ const HeroImage = () => {
           bgColor="primary"
           as={'a'}
           href={'#about'}
+          _hover={{
+            bgColor: 'primaryDark'
+          }}
         >
           Conocer más
         </Button>

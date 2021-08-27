@@ -1,10 +1,18 @@
+import { HStack, Text } from '@chakra-ui/react'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <h3>Footer</h3>
-    </div>
+    <HStack
+      justify={'center'}
+      shadow={'lg'}
+      height={'50px'}
+      border={'1px solid gray'}
+    >
+      <HStack>
+        <Text>Copyright © 2021 Berrones.</Text>
+      </HStack>
+    </HStack>
   )
 }
 

@@ -15,19 +15,7 @@ function App() {
       <CustomDivider side={'right'} />
       <br />
       <Projects />
-      <br />
-      <CustomDivider side={'left'} />
-      <br />
       <Footer />
-
-      {/* <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br /> */}
-      {/* <ShapeDivider /> */}
     </Layout>
   )
 }
