@@ -11,8 +11,8 @@ const Header = () => {
         <Flex
           direction={'column'}
           align={'center'}
-          justify={'space-around'}
-          height={'100%'}
+          justify={'center'}
+          height={'80%'}
         >
           <Flex width={'100%'} justify={'center'}>
             <HeroImage />
