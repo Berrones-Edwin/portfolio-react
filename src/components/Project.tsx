@@ -27,7 +27,6 @@ const SingleProject = ({
       borderWidth="1px"
       borderRadius="lg"
       boxShadow="lg"
-      rounded="md"
       width={{
         base: '90%',
         md: '300px'
@@ -36,6 +35,8 @@ const SingleProject = ({
       p={5}
       bgColor={'#232f45'}
       color={'white'}
+      // pos={'relative'}
+      // height={'600px'}
     >
       <Box width={'100%'}>
         <Center>
@@ -65,32 +66,35 @@ const SingleProject = ({
           as={'section'}
           spacing={4}
           direction={'row'}
-          justify={'center'}
+          justify={'space-around'}
           padding={1}
           wrap={'wrap'}
           align={'center'}
           mt={2}
-          maxW={'90%'}
+          mb={3}
+          maxW={'100%'}
+          height={'100px'}
         >
           {technologies.map((t) => (
-            <Badge
-              borderRadius={'20'}
+            <Button
+              size={'sm'}
               padding={1}
               color={'black'}
               bgColor={t.name}
               key={t.id}
             >
               {t.name}
-            </Badge>
+            </Button>
           ))}
         </Stack>
       </Flex>
+      <hr />
       <Stack
         as={'footer'}
         justify={'space-around'}
         direction={'row'}
         align={'center'}
-        mb={3}
+        mt={1}
       >
         <Button
           as={'a'}

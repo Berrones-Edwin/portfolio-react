@@ -279,19 +279,19 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'Inicio',
-    href: '#'
+    href: '#home'
   },
   {
     label: 'Acerca de mí',
-    href: '#'
+    href: '#about'
   },
   {
     label: 'Proyectos',
-    href: '#'
+    href: '#projects'
   },
   {
     label: 'Blog',
-    href: '#'
+    href: '#blog'
   }
   // {
   //   label: 'Inspiration',

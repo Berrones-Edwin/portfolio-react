@@ -4,6 +4,7 @@ import Header from './components/Header'
 import About from './components/About'
 import Projects from './components/Projects'
 import CustomDivider from './components/CustomDivider'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,16 +13,20 @@ function App() {
       <CustomDivider side={'left'} />
       <About />
       <CustomDivider side={'right'} />
+      <br />
       <Projects />
+      <br />
       <CustomDivider side={'left'} />
       <br />
+      <Footer />
+
+      {/* <br />
       <br />
       <br />
       <br />
       <br />
       <br />
-      <br />
-      <br />
+      <br /> */}
       {/* <ShapeDivider /> */}
     </Layout>
   )

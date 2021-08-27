@@ -1,6 +1,5 @@
 import { Stack, Image, Text, Flex, Button } from '@chakra-ui/react'
 import React from 'react'
-import './About.css'
 import Title from './Title'
 
 const About = () => {
@@ -13,6 +12,7 @@ const About = () => {
         justify={'center'}
         align={'center'}
         padding={4}
+        id={'about'}
       >
         <Stack
           borderRadius={'10px'}
@@ -47,7 +47,7 @@ const About = () => {
             >
               <Image
                 borderRadius="full"
-                src={'https://bit.ly/dan-abramov'}
+                src={'https://avatars.githubusercontent.com/u/44040730?v=4'}
                 boxSize={{
                   base: '200px',
                   md: '300px'
@@ -67,23 +67,24 @@ const About = () => {
             >
               <Title title={'Acerca de mí'} size={'xl'} />
               <Text>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, perferendis. Atque ullam, cumque est dolor labore sint
-                ipsa hic itaque obcaecati consectetur sequi dolorum cupiditate
-                unde porro asperiores perferendis alias earum veritatis neque
-                ratione aperiam. Nam unde cupiditate impedit voluptas atque eum
-                corporis optio molestias, libero repellat, fugiat expedita
-                quibusdam?
+                Soy Edwin Berrones, un frontend developer, originario de México
+                que le apasiona programar, persona autodidacta que le gusta
+                aprender y probar distintas librerías o frameworks.
               </Text>
               <Text>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, perferendis. Atque ullam, cumque est dolor labore sint
-                ipsa hic itaque obcaecati consectetur sequi dolorum cupiditate
-                unde porro asperiores perferendis alias earum veritatis neque
-                ratione aperiam. Nam unde cupiditate impedit voluptas atque eum
-                corporis optio molestias, libero repellat, fugiat expedita
-                quibusdam?
+                Empecé a programar en mi etapa de la universidad, ahorita estoy
+                centrando en el mundo del desarrollo web, especificamente del
+                lado del front-end donde he realizado proyectos en Angular y
+                React.
               </Text>
+              <Text>
+                Actualmente realizo proyectos para ir mejorando mis habilidades
+                de programacion y para tener mas experencia en el lenguaje
+                JavaScript /TypeSscript. Puedes ver algunos de mis proyectos en
+                la sección <b>Proyectos</b> o entrando a mi perfil de{' '}
+                <b>GitHub</b>.
+              </Text>
+              <Text>Puedes encontrarme en:</Text>
             </Stack>
           </Flex>
         </Stack>

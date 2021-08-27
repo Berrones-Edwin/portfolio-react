@@ -3,8 +3,6 @@ import { Stack } from '@chakra-ui/layout'
 const CustomDividerLeft = () => {
   return (
     <Stack
-      mt={3}
-      mb={3}
       height={'1px'}
       maxW={'50%'}
       bgColor={'purple.400'}

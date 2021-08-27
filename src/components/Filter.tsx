@@ -2,10 +2,10 @@ import React from 'react'
 import { Stack, Button } from '@chakra-ui/react'
 import { Project } from '../types/projects-type'
 const FILTERBUTTONS = [
-  { id: 1, name: 'Todos', filter: 'ALL' },
-  { id: 2, name: 'JavaScript', filter: 'JavaScript' },
-  { id: 3, name: 'TypeScript', filter: 'TypeScript' },
-  { id: 4, name: 'React', filter: 'React' }
+  { id: 1, name: 'Todos', filter: 'ALL', color: 'primaryDark' },
+  { id: 2, name: 'JavaScript', filter: 'JavaScript', color: 'JavaScript' },
+  { id: 3, name: 'TypeScript', filter: 'TypeScript', color: 'TypeScript' },
+  { id: 4, name: 'React', filter: 'React', color: 'React' }
 ]
 const Filter = ({
   projectsData,
@@ -39,7 +39,9 @@ const Filter = ({
     >
       {FILTERBUTTONS.map((filter) => (
         <Button
+          color={'black'}
           key={filter.id}
+          bgColor={filter.color}
           onClick={() => filterProjects({ filter: filter.filter })}
         >
           {filter.name}

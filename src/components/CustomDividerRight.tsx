@@ -4,7 +4,6 @@ const CustomDividerRight = () => {
   return (
     <Flex justify={'flex-end'}>
       <Stack
-        mb={1}
         height={'1px'}
         maxW={'50%'}
         width={'50%'}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack, Button, Text, Center } from '@chakra-ui/react'
+import { Stack, Image, Button, Text, Center, Heading } from '@chakra-ui/react'
 import Developer from '../svg/developer.svg'
 import Title from './Title'
 const HeroImage = () => {
@@ -9,33 +9,44 @@ const HeroImage = () => {
       width={'90%'}
       direction={{
         base: 'column',
-        md: 'row'
+        md: 'column'
       }}
       justify={{
         base: 'center',
-        md: 'space-around'
+        md: 'center'
       }}
       align={'center'}
     >
-      <Stack padding={4}>
-        <Title title={'Hola, Bienvenido'} size={'xl'} />
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          sequi, vitae eius odio doloremque illo.
-        </Text>
+      <Stack
+        spacing={3}
+        direction={'column'}
+        justify={'center'}
+        align={'center'}
+      >
+        <Title title={'Hola, Soy Edwin Berrones'} size={'md'} />
+
+        <Title title={'Programador web front-end'} size={'xl'} />
+
+        <Image
+          mb={3}
+          src={Developer}
+          alt={'developer'}
+          height="250"
+          width="250"
+        />
+        <br />
         <Button
           border={'1px solid red'}
           size="lg"
-          width={'150px'}
+          width={'300px'}
           variant="outline"
           bgColor="primary"
+          as={'a'}
+          href={'#about'}
         >
           Conocer más
         </Button>
       </Stack>
-      <Center>
-        <img src={Developer} alt={'developer'} height="500" width="500" />
-      </Center>
     </Stack>
   )
 }
