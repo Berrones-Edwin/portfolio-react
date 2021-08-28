@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack, Image, Button, Text, Center, Heading } from '@chakra-ui/react'
+import { Stack, Image, Button, useColorModeValue } from '@chakra-ui/react'
 import Developer from '../svg/developer.svg'
 import Title from './Title'
 const HeroImage = () => {
@@ -36,16 +36,15 @@ const HeroImage = () => {
         />
         <br />
         <Button
-          border={'1px solid red'}
           size="lg"
           width={'300px'}
-          variant="outline"
           bgColor="primary"
           as={'a'}
           href={'#about'}
           _hover={{
             bgColor: 'primaryDark'
           }}
+          color={useColorModeValue('buttonTextLight', 'buttonTextDark')}
         >
           Conocer más
         </Button>

@@ -288,11 +288,11 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'Proyectos',
     href: '#projects'
-  },
-  {
-    label: 'Blog',
-    href: '#blog'
   }
+  // {
+  //   label: 'Blog',
+  //   href: '#blog'
+  // }
   // {
   //   label: 'Inspiration',
   //   children: [

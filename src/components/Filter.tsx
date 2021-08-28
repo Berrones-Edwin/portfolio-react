@@ -1,8 +1,8 @@
 import React from 'react'
-import { Stack, Button } from '@chakra-ui/react'
+import { Stack, Button, useColorModeValue } from '@chakra-ui/react'
 import { Project } from '../types/projects-type'
 const FILTERBUTTONS = [
-  { id: 1, name: 'Todos', filter: 'ALL', color: 'primaryDark' },
+  { id: 1, name: 'Todos', filter: 'ALL', color: 'primaryLight' },
   { id: 2, name: 'JavaScript', filter: 'JavaScript', color: 'JavaScript' },
   { id: 3, name: 'TypeScript', filter: 'TypeScript', color: 'TypeScript' },
   { id: 4, name: 'React', filter: 'React', color: 'React' }
@@ -36,13 +36,19 @@ const Filter = ({
       direction={'row'}
       justify={'center'}
       align={'center'}
+      paddingBottom={5}
     >
       {FILTERBUTTONS.map((filter) => (
         <Button
-          color={'black'}
+          color={useColorModeValue('buttonTextLight', 'buttonTextDark')}
           key={filter.id}
-          bgColor={filter.color}
+          variant="outline"
+          borderColor={'primary'}
           onClick={() => filterProjects({ filter: filter.filter })}
+          _hover={{
+            bgColor: `${filter.color}`,
+            borderColor: `${filter.color}`
+          }}
         >
           {filter.name}
         </Button>

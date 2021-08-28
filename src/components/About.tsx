@@ -1,4 +1,4 @@
-import { Stack, Image, Text, Flex, Button } from '@chakra-ui/react'
+import { Stack, Image, Text, Flex } from '@chakra-ui/react'
 import React from 'react'
 import SocialMedia from './SocialMedia'
 import Title from './Title'

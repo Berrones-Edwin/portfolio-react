@@ -6,7 +6,6 @@ import {
   Image,
   Flex,
   Heading,
-  Badge,
   Button,
   Text
 } from '@chakra-ui/react'
