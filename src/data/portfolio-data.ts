@@ -182,5 +182,40 @@ export const projectsData = [
         name: 'Bootstrap'
       }
     ]
+  },
+  {
+    id: 6,
+    name: 'Eccomerce',
+    descriptionShort: 'Tienda en linea donde se usa la API products.',
+    description:
+      'Tienda en linea donde nos muestra productos, podemos iniciar sesión, agregar productos a nuestros carritos o a nuestra lista de deseo.',
+    image:
+      'https://user-images.githubusercontent.com/44040730/136063577-f6ab09c9-e0be-46e6-9ed8-215a01a48243.png',
+    links: [
+      {
+        id: 1,
+        name: 'Demo',
+        url: 'https://eccomerce-woad.vercel.app'
+      },
+      {
+        id: 2,
+        name: 'GitHub',
+        url: 'https://github.com/Berrones-Edwin/eccomerce'
+      }
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: 'React'
+      },
+      {
+        id: 2,
+        name: 'ChakraUI'
+      },
+      {
+        id: 3,
+        name: 'ViteJS'
+      }
+    ]
   }
 ]
