@@ -215,6 +215,10 @@ export const projectsData = [
       {
         id: 3,
         name: 'ViteJS'
+      },
+      {
+        id: 4,
+        name: 'TypeScript'
       }
     ]
   }
