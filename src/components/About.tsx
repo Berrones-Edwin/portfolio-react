@@ -74,15 +74,15 @@ const About = () => {
               </Text>
               <Text>
                 Empecé a programar en mi etapa de la universidad, ahorita estoy
-                centrando en el mundo del desarrollo web, especificamente del
+                centrando en el mundo del desarrollo web, específicamente del
                 lado del front-end donde he realizado proyectos en Angular y
                 React.
               </Text>
               <Text>
                 Actualmente realizo proyectos para ir mejorando mis habilidades
-                de programacion y para tener mas experencia en el lenguaje
-                JavaScript /TypeSscript. Puedes ver algunos de mis proyectos en
-                la sección <b>Proyectos</b> o entrando a mi perfil de{' '}
+                de programación y para tener más experiencia en el lenguaje
+                JavaScript /TypeSscript. . Puedes ver algunos de mis proyectos
+                en la sección <b>Proyectos</b> o entrando a mi perfil de{' '}
                 <b>GitHub</b>.
               </Text>
               <Text>Puedes encontrarme en:</Text>
