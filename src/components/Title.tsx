@@ -8,7 +8,7 @@ type TitleProps = {
 
 const Title = ({ title, size }: TitleProps) => {
   return (
-    <Heading as={'h4'} size={size} letterSpacing={2} mb={1} mt={1}>
+    <Heading as={'h4'} textAlign='center' size={size} letterSpacing={2} mb={1} mt={1}>
       {title}
     </Heading>
   )

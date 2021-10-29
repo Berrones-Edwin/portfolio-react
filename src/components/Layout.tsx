@@ -6,6 +6,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
     <Stack
       bgColor="{useColorModeValue( 'bgColorlight','bgColorDark')}"
       minH="100vh"
+      as={'main'}
     >
       {children}
     </Stack>

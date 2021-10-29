@@ -35,6 +35,7 @@ const SingleProject = ({
   return (
     <>
       <Stack
+        as={'article'}
         borderWidth="1px"
         borderRadius="lg"
         boxShadow="lg"
@@ -42,31 +43,18 @@ const SingleProject = ({
           base: '90%',
           md: '300px'
         }}
-        as={'article'}
         p={5}
         bgColor={'#232f45'}
         color={'white'}
-        onClick={onOpen} cursor={'pointer'}
+        onClick={onOpen}
+        cursor={'pointer'}
       >
-        <Box width={'100%'}>
-          <Center >
-            {/* <Image
-              objectFit={'cover'}
-              src={image}
-              alt={name}
-              title={name}
-              height={'300px'}
-              width={'300px'}
-              borderRadius={'md'}
-            /> */}
-          </Center>
-        </Box>
         <Flex
           padding={2}
           direction={'column'}
           justify={'center'}
           align={'center'}
-          as={'section'}
+          as={'header'}
         >
           <Heading as={'h3'} size={'md'} mb={1} textDecoration={'underline'}>
             {name}

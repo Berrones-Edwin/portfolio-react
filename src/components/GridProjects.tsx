@@ -5,9 +5,8 @@ import SingleProject from './Project'
 
 const GridProjects = ({ projects }: { projects: Array<Project> }) => {
   return (
-    <Center>
+    <Center as={'section'}>
       <Grid
-        as={'section'}
         gridGap={6}
         width={'90%'}
         templateColumns="repeat(auto-fill,minmax(350px,1fr))"

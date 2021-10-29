@@ -10,10 +10,8 @@ const Projects = () => {
   const [projects, setProjects] = useState<Project[]>(projectsData)
 
   return (
-    <Stack mb={'50'} mt={'5rem'} id={'projects'}>
-      <Center mb={2}>
-        <Title title={'Proyectos'} size={'xl'} />
-      </Center>
+    <Stack mb={'50'} mt={'5rem'} id={'projects'} as={'section'}>
+      <Title title={'Proyectos'} size={'xl'} />
       {/* Filter */}
       <Filter projectsData={projectsData} setProjects={setProjects} />
 

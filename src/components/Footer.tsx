@@ -8,6 +8,7 @@ const Footer = () => {
       shadow={'lg'}
       height={'50px'}
       border={'1px solid gray'}
+      as={'footer'}
     >
       <HStack>
         <Text>Copyright © 2021 Berrones.</Text>
