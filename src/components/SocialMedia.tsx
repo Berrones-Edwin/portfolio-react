@@ -1,5 +1,5 @@
 import React from 'react'
-import { HStack, Button } from '@chakra-ui/react'
+import { HStack, IconButton } from '@chakra-ui/react'
 import {
   FaGithub,
   FaLinkedin,
@@ -11,68 +11,78 @@ import {
 const SocialMedia = () => {
   return (
     <HStack color={'white'}>
-      <Button
+      <IconButton
         as={'a'}
-        size={'sm'}
+        aria-label='social media Github'
+        borderRadius={'9999px'}
+        size={'lg'}
         href={'https://github.com/Berrones-Edwin'}
         target={'_blank'}
         _hover={{
           bgColor: '#084461'
         }}
         bgColor={'#000000'}
-        leftIcon={<FaGithub />}
+        icon={<FaGithub />}
       >
         Github
-      </Button>
-      <Button
+      </IconButton>
+      <IconButton
         as={'a'}
-        size={'sm'}
+        aria-label='social media Linkedin'
+        size={'lg'}
+        borderRadius={'9999px'}
         href={'https://www.linkedin.com/in/edwin-berrones-9a89b9182/'}
         target={'_blank'}
         _hover={{
           bgColor: '#084461'
         }}
         bgColor={'#0e76a8'}
-        leftIcon={<FaLinkedin />}
+        icon={<FaLinkedin />}
       >
         Linkedin
-      </Button>
-      <Button
+      </IconButton>
+      <IconButton
+      aria-label='social media Twitter'
         as={'a'}
-        size={'sm'}
+        size={'lg'}
+        borderRadius={'9999px'}
         target={'_blank'}
         colorScheme={'twitter'}
-        leftIcon={<FaTwitter />}
+        icon={<FaTwitter />}
         href={'https://twitter.com/eberrones_'}
       >
         Twitter
-      </Button>
-      <Button
+      </IconButton>
+      <IconButton
         as={'a'}
-        size={'sm'}
+        aria-label='social media Medium'
+        size={'lg'}
+        borderRadius={'9999px'}
         href={'https://berrones-edwin.medium.com'}
         target={'_blank'}
         _hover={{
           bgColor: 'blackAlpha.900'
         }}
         bgColor={'blackAlpha.700'}
-        leftIcon={<FaMedium />}
+        icon={<FaMedium />}
       >
         Medium
-      </Button>
-      <Button
+      </IconButton>
+      <IconButton
+      aria-label='social media DevTo'
         as={'a'}
-        size={'sm'}
+        size={'lg'}
         href={'https://dev.to/berronesedwin'}
         target={'_blank'}
+        borderRadius={'9999px'}
         _hover={{
           bgColor: 'gray.900'
         }}
         bgColor={'gray.700'}
-        leftIcon={<FaDev />}
+        icon={<FaDev />}
       >
         DevTo
-      </Button>
+      </IconButton>
     </HStack>
   )
 }

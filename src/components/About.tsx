@@ -14,6 +14,7 @@ const About = () => {
         align={'center'}
         padding={4}
         id={'about'}
+        as={'section'}
       >
         <Stack
           borderRadius={'10px'}
@@ -81,12 +82,12 @@ const About = () => {
               <Text>
                 Actualmente realizo proyectos para ir mejorando mis habilidades
                 de programación y para tener más experiencia en el lenguaje
-                JavaScript /TypeSscript. . Puedes ver algunos de mis proyectos
+                JavaScript /TypeSscript.Puedes ver algunos de mis proyectos
                 en la sección <b>Proyectos</b> o entrando a mi perfil de{' '}
                 <b>GitHub</b>.
               </Text>
-              <Text>Puedes encontrarme en:</Text>
-              <SocialMedia />
+              {/* <Text>Puedes encontrarme en:</Text>
+              <SocialMedia /> */}
             </Stack>
           </Flex>
         </Stack>

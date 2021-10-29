@@ -6,18 +6,17 @@ import HeroImage from './HeroImage'
 const Header = () => {
   return (
     <>
-      <Stack id={'home'} maxW={'100%'} height={'700px'} mb={2}>
+      <Stack id={'home'} maxW={'100%'} height={'700px'} mb={2} as={'header'}>
         <NavBar />
-        <Flex
+        <Stack
+          spacing={4}
           direction={'column'}
           align={'center'}
           justify={'center'}
           height={'80%'}
         >
-          <Flex width={'100%'} justify={'center'}>
-            <HeroImage />
-          </Flex>
-        </Flex>
+          <HeroImage />
+        </Stack>
       </Stack>
     </>
   )

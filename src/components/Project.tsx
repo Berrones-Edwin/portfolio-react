@@ -46,12 +46,11 @@ const SingleProject = ({
         p={5}
         bgColor={'#232f45'}
         color={'white'}
-        // pos={'relative'}
-        // height={'600px'}
+        onClick={onOpen} cursor={'pointer'}
       >
         <Box width={'100%'}>
-          <Center onClick={onOpen} cursor={'pointer'}>
-            <Image
+          <Center >
+            {/* <Image
               objectFit={'cover'}
               src={image}
               alt={name}
@@ -59,7 +58,7 @@ const SingleProject = ({
               height={'300px'}
               width={'300px'}
               borderRadius={'md'}
-            />
+            /> */}
           </Center>
         </Box>
         <Flex
