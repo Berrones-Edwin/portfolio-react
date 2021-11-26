@@ -40,7 +40,46 @@ export const projectsData = [
     ]
   },
   {
-    id: 2,
+    id: 6,
+    name: 'Eccomerce',
+    descriptionShort: 'Tienda en linea donde se usa la API products.',
+    description:
+      'Tienda en linea donde nos muestra productos, podemos iniciar sesión, agregar productos a nuestros carritos o a nuestra lista de deseo.',
+    image:
+      'https://user-images.githubusercontent.com/44040730/136063577-f6ab09c9-e0be-46e6-9ed8-215a01a48243.png',
+    links: [
+      {
+        id: 1,
+        name: 'Demo',
+        url: 'https://eccomerce-woad.vercel.app'
+      },
+      {
+        id: 2,
+        name: 'GitHub',
+        url: 'https://github.com/Berrones-Edwin/eccomerce'
+      }
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: 'React'
+      },
+      {
+        id: 2,
+        name: 'ChakraUI'
+      },
+      {
+        id: 3,
+        name: 'ViteJS'
+      },
+      {
+        id: 4,
+        name: 'TypeScript'
+      }
+    ]
+  },
+  {
+    id: 3,
     name: 'Buscador de canciones',
     descriptionShort:
       'Aplicación que nos permite buscar la información de un artista y la letra de una canción.',
@@ -76,7 +115,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     name: 'Buscador de GIFS',
     descriptionShort:
       'Aplicación para buscar gifs, podemos registrarnos / iniciar sesión y tener una colección de favoritos.',
@@ -116,7 +155,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     name: 'ToDo App',
     descriptionShort:
       'Aplicación para agregar tareas por hacer, podemos completar tareas y eliminarlas.',
@@ -152,7 +191,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     name: 'Juego Memoria',
     descriptionShort:
       'Juego clásico donde tenemos que buscar cartas que sean pares.',
@@ -180,45 +219,6 @@ export const projectsData = [
       {
         id: 2,
         name: 'Bootstrap'
-      }
-    ]
-  },
-  {
-    id: 6,
-    name: 'Eccomerce',
-    descriptionShort: 'Tienda en linea donde se usa la API products.',
-    description:
-      'Tienda en linea donde nos muestra productos, podemos iniciar sesión, agregar productos a nuestros carritos o a nuestra lista de deseo.',
-    image:
-      'https://user-images.githubusercontent.com/44040730/136063577-f6ab09c9-e0be-46e6-9ed8-215a01a48243.png',
-    links: [
-      {
-        id: 1,
-        name: 'Demo',
-        url: 'https://eccomerce-woad.vercel.app'
-      },
-      {
-        id: 2,
-        name: 'GitHub',
-        url: 'https://github.com/Berrones-Edwin/eccomerce'
-      }
-    ],
-    technologies: [
-      {
-        id: 1,
-        name: 'React'
-      },
-      {
-        id: 2,
-        name: 'ChakraUI'
-      },
-      {
-        id: 3,
-        name: 'ViteJS'
-      },
-      {
-        id: 4,
-        name: 'TypeScript'
       }
     ]
   }
