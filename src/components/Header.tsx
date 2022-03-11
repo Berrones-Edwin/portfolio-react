@@ -6,7 +6,13 @@ import HeroImage from './HeroImage'
 const Header = () => {
   return (
     <>
-      <Stack id={'home'} maxW={'100%'} height={'700px'} mb={2} as={'header'}>
+      <Stack
+        id={'home'}
+        maxW={'container.xl'}
+        height={'700px'}
+        mb={2}
+        as={'header'}
+      >
         <NavBar />
         <Stack
           spacing={4}

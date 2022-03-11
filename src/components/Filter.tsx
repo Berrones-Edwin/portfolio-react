@@ -37,6 +37,8 @@ const Filter = ({
       justify={'center'}
       align={'center'}
       paddingBottom={5}
+      maxW={'container.xl'}
+      flexWrap={'wrap'}
     >
       {FILTERBUTTONS.map((filter) => (
         <Button

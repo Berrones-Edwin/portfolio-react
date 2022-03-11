@@ -1,14 +1,13 @@
 import React from 'react'
 import { Project } from '../types/projects-type'
-import { Center, Grid } from '@chakra-ui/react'
+import { Stack, Grid } from '@chakra-ui/react'
 import SingleProject from './Project'
 
 const GridProjects = ({ projects }: { projects: Array<Project> }) => {
   return (
-    <Center as={'section'}>
       <Grid
         gridGap={6}
-        width={'90%'}
+        width={'100%'}
         templateColumns="repeat(auto-fill,minmax(350px,1fr))"
         justifyContent={'center'}
         alignContent={'center'}
@@ -27,7 +26,6 @@ const GridProjects = ({ projects }: { projects: Array<Project> }) => {
           />
         ))}
       </Grid>
-    </Center>
   )
 }
 

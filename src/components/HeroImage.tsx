@@ -41,10 +41,11 @@ const HeroImage = () => {
           }}
           padding={3}
         >
-          <Title title={'Hola 👋 '} size={'2xl'} />
+          <Title textAlign="left" title={'Hola 👋 '} size={'2xl'} />
           <Title
+            textAlign="left"
             title={'Soy Edwin Berrones. Programador web front-end.'}
-            size={'xl'}
+            size={'md'}
           />
           <SocialMedia />
           <Button
@@ -56,7 +57,7 @@ const HeroImage = () => {
             _hover={{
               bgColor: 'primaryDark'
             }}
-            color={useColorModeValue('buttonTextLight', 'buttonTextDark')}
+            color={useColorModeValue('buttonTextDark', 'buttonTextDark')}
           >
             Conocer más
           </Button>

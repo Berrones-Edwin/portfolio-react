@@ -1,13 +1,12 @@
 import { Stack, Image, Text, Flex } from '@chakra-ui/react'
 import React from 'react'
-import SocialMedia from './SocialMedia'
 import Title from './Title'
 
 const About = () => {
   return (
     <>
       <Stack
-        maxW={'100%'}
+        maxW={'container.xl'}
         display={'flex'}
         direction={'row'}
         justify={'center'}
@@ -39,7 +38,7 @@ const About = () => {
             justify={'center'}
             align={'center'}
             padding={2}
-            as='picture'
+            as="picture"
           >
             <Image
               borderRadius="full"
@@ -60,9 +59,9 @@ const About = () => {
             justify={'center'}
             align={'center'}
             height={'100%'}
-            as='article'
+            as="article"
           >
-            <Title title={'Acerca de mí'} size={'xl'} />
+            <Title textAlign="center" title={'Acerca de mí'} size={'xl'} />
             <Text>
               Soy Edwin Berrones, un frontend developer, originario de México
               que le apasiona programar, persona autodidacta que le gusta
@@ -77,10 +76,12 @@ const About = () => {
               Actualmente realizo proyectos para ir mejorando mis habilidades de
               programación y para tener más experiencia en el lenguaje
               JavaScript /TypeSscript.Puedes ver algunos de mis proyectos en la
-              sección <b>Proyectos</b> o entrando a mi perfil de <b>GitHub</b>.
+              sección{' '}
+              <a href="#projects">
+                <b>Proyectos </b>
+              </a>{' '}
+              o entrando a mi perfil de <a target={'_blank'} href="https://github.com/Berrones-Edwin"><b>GitHub</b></a>.
             </Text>
-            {/* <Text>Puedes encontrarme en:</Text>
-              <SocialMedia /> */}
           </Stack>
         </Flex>
       </Stack>

@@ -29,5 +29,7 @@ export const theme = extendTheme({
     Bootstrap: '#7611ed',
     ChakraUI: '#28b5aa',
     SASS: '#cc699c'
-  }
+  },
+  initialColorMode: 'dark',
+  useSystemColorMode: true
 })

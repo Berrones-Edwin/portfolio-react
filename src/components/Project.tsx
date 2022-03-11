@@ -15,7 +15,7 @@ import {
   DrawerCloseButton,
   DrawerHeader,
   DrawerBody,
-  Input,
+  useColorModeValue,
   DrawerFooter
 } from '@chakra-ui/react'
 
@@ -31,6 +31,7 @@ const SingleProject = ({
   technologies
 }: Project) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
+ 
 
   return (
     <>
@@ -40,12 +41,13 @@ const SingleProject = ({
         borderRadius="lg"
         boxShadow="lg"
         width={{
-          base: '90%',
+          base: '100%',
           md: '300px'
         }}
         p={5}
-        bgColor={'#232f45'}
-        color={'white'}
+        // #232f45'
+        bgColor={useColorModeValue('bgColorLight','232f45')}
+        color={useColorModeValue('black','white')}
         onClick={onOpen}
         cursor={'pointer'}
       >
@@ -78,6 +80,7 @@ const SingleProject = ({
             }}
             size={'md'}
             target={'_blank'}
+            color={'white'}
           >
             {links[0].name}
           </Button>
@@ -86,7 +89,8 @@ const SingleProject = ({
             as={'a'}
             href={links[1].url}
             _hover={{
-              bgColor: 'primaryDark'
+              bgColor: 'primaryDark',
+              color:'white'
             }}
           >
             {links[1].name}

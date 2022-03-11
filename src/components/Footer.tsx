@@ -7,7 +7,7 @@ const Footer = () => {
       justify={'center'}
       shadow={'lg'}
       height={'50px'}
-      border={'1px solid gray'}
+      
       as={'footer'}
     >
       <HStack>

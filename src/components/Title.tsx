@@ -1,14 +1,22 @@
 import React from 'react'
 import { Heading } from '@chakra-ui/layout'
 
-type TitleProps = {
+interface TitleProps {
   title: string
-  size: 'xl' | '4xl' | '3xl' | '2xl' | 'lg' | 'md' | 'sm' | 'xs'
+  size: 'xl' | '4xl' | '3xl' | '2xl' | 'lg' | 'md' | 'sm' | 'xs',
+  textAlign:"center" | "end" | "justify" | "left" | "match-parent" | "right" | "start";
 }
 
-const Title = ({ title, size }: TitleProps) => {
+const Title = ({ title, size,textAlign='center' }: TitleProps) => {
   return (
-    <Heading as={'h4'} textAlign='center' size={size} letterSpacing={2} mb={1} mt={1}>
+    <Heading
+      as={'h4'}
+      textAlign={textAlign}
+      size={size}
+      letterSpacing={2}
+      mb={1}
+      mt={1}
+    >
       {title}
     </Heading>
   )
