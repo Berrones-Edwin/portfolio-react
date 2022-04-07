@@ -31,5 +31,5 @@ export const theme = extendTheme({
     SASS: '#cc699c'
   },
   initialColorMode: 'dark',
-  useSystemColorMode: true
+  useSystemColorMode: false
 })

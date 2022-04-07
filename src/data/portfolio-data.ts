@@ -191,7 +191,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     name: 'Juego Memoria',
     descriptionShort:
       'Juego clásico donde tenemos que buscar cartas que sean pares.',
