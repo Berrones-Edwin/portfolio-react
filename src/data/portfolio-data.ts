@@ -221,5 +221,81 @@ export const projectsData = [
         name: 'Bootstrap'
       }
     ]
+  },
+  {
+    id: 8,
+    name: 'Aplicación clima',
+    descriptionShort:
+      'Aplicación que muestra el clima de tu ciudad actual.',
+    description:
+      'Aplicación que muestra el clima de tu ciudad actual. Puedes cambiar entre grados °c y °f, buscar ciudades de todo el mundo, ver el clima por hora, guardar lugares favoritos, etc.',
+    image:
+      'https://user-images.githubusercontent.com/44040730/171038978-a018bdb3-2b6d-4f10-a5ae-f3c31729d232.png',
+    links: [
+      {
+        id: 1,
+        name: 'Demo',
+        url: 'https://weather-app-lake-eight.vercel.app/'
+      },
+      {
+        id: 2,
+        name: 'GitHub',
+        url: 'https://github.com/Berrones-Edwin/weather-app'
+      }
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: 'JavaScript'
+      },
+      {
+        id: 2,
+        name: 'NextJS'
+      },
+      {
+        id: 3,
+        name: 'ChakraUI'
+      },
+    ]
+  },
+  {
+    id: 9,
+    name: 'VideoLLamada',
+    descriptionShort:
+      'Aplicación para hacer videollamadas',
+    description:
+      'Aplicación donde podemos crear cuartos y podemos hacer videollamadas. Podemos activar y descactivar el auido y video.',
+    image:
+      'https://user-images.githubusercontent.com/44040730/165360347-8f9716b6-6d37-4ea8-b535-0441382a8e8a.png',
+    links: [
+      {
+        id: 1,
+        name: 'Demo',
+        url: 'https://video-call-production.up.railway.app/'
+      },
+      {
+        id: 2,
+        name: 'GitHub',
+        url: 'https://github.com/Berrones-Edwin/video-call'
+      }
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: 'JavaScript'
+      },
+      {
+        id: 2,
+        name: 'NodeJS'
+      },
+      {
+        id: 3,
+        name: 'ExpressJs'
+      },
+      {
+        id: 4,
+        name: 'BootStrap'
+      },
+    ]
   }
 ]
