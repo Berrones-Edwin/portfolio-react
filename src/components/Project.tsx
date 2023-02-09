@@ -88,6 +88,7 @@ const SingleProject = ({
             variant="outline"
             as={'a'}
             href={links[1].url}
+            target={'_blank'}
             _hover={{
               bgColor: 'primaryDark',
               color:'white'
