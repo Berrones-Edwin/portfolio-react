@@ -11,7 +11,7 @@ const Footer = () => {
       as={'footer'}
     >
       <HStack>
-        <Text>Copyright © 2021 Berrones.</Text>
+        <Text>Copyright © {new Date().getFullYear()} Berrones.</Text>
       </HStack>
     </HStack>
   )
