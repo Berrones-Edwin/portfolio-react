@@ -297,5 +297,89 @@ export const projectsData = [
         name: 'BootStrap'
       },
     ]
+  },
+  {
+    id: 10,
+    name: 'Editor',
+    descriptionShort:
+      'Aplicación para crear, editar y descargar imagenes para tus redes sociales.',
+    description:
+      'Aplicación para crear, editar y descargar imagenes para tus redes sociales. Puedes agregar images, agregar código HTML, CSS, Js. La imagenes se descargan en tu maquina o las puedes subir a la nube.',
+    image:
+      'https://user-images.githubusercontent.com/44040730/262731404-1d535c75-51cf-4ade-8c47-dcdc20cea836.png',
+    links: [
+      {
+        id: 1,
+        name: 'Demo',
+        url: 'https://p-editor.vercel.app/'
+      },
+      {
+        id: 2,
+        name: 'GitHub',
+        url: 'https://github.com/Berrones-Edwin/p-editor'
+      }
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: 'JavaScript'
+      },
+      {
+        id: 2,
+        name: 'React'
+      },
+      {
+        id: 3,
+        name: 'Firebase'
+      },
+      {
+        id: 4,
+        name: 'Cloudinary'
+      },
+    ]
+  },
+  {
+    id: 11,
+    name: 'Company Evaluation',
+    descriptionShort:
+      'Company Evaluation es un sitio web que te permite compartir facilmente informacion sobre una empresa (cultura, salarios, entrevistas, etc)',
+    description:
+      'Company Evaluation es un sitio web que te permite compartir facilmente información sobre una empresa (cultura, salarios, entrevistas, etc). Se utilizó google forms y google sheets para recolectar la información y generar informes con ello.',
+    image:
+      'https://user-images.githubusercontent.com/44040730/241445597-404cc93e-b9a8-4130-b917-987fa475315c.png',
+    links: [
+      {
+        id: 1,
+        name: 'Demo',
+        url: 'https://hackaton-infojobs-zeta.vercel.app/'
+      },
+      {
+        id: 2,
+        name: 'GitHub',
+        url: 'https://github.com/Berrones-Edwin/hackaton-infojobs'
+      }
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: 'TypeScript'
+      },
+      {
+        id: 2,
+        name: 'React'
+      },
+      {
+        id: 3,
+        name: 'NextJS'
+      },
+      {
+        id: 4,
+        name: 'Google Forms'
+      },
+      {
+        id: 5,
+        name: 'Google Sheet'
+      },
+    ]
   }
 ]
