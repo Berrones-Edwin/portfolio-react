@@ -44,7 +44,7 @@ const HeroImage = () => {
           <Title textAlign="left" title={'Hola 👋 '} size={'2xl'} />
           <Title
             textAlign="left"
-            title={'Soy Edwin Berrones. Programador web front-end.'}
+            title={'Soy Edwin Berrones. Software Engineer.'}
             size={'md'}
           />
           <SocialMedia />

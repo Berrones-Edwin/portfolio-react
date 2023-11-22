@@ -63,14 +63,14 @@ const About = () => {
           >
             <Title textAlign="center" title={'Acerca de mí'} size={'xl'} />
             <Text>
-              Soy Edwin Berrones, un frontend developer, originario de México
+              Soy Edwin Berrones, originario de México
               que le apasiona programar, persona autodidacta que le gusta
               aprender y probar distintas librerías o frameworks.
             </Text>
             <Text>
               Empecé a programar en mi etapa de la universidad, ahorita estoy
               centrando en el mundo del desarrollo web, específicamente del lado
-              del front-end donde he realizado proyectos en Angular y React.
+              del front-end donde he realizado proyectos React y NodeJs.
             </Text>
             <Text>
               Actualmente realizo proyectos para ir mejorando mis habilidades de
