@@ -300,7 +300,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    name: 'Editor',
+    name: 'Editor Photos',
     descriptionShort:
       'Aplicación para crear, editar y descargar imagenes para tus redes sociales.',
     description:
